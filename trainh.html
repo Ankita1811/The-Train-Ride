@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<center>
+<head>
+    
+    <meta charset="utf-8">
+    <title >FIND THE TRAIN'S ROUTE</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="./trainc.css">
+</head>
+</center>
+<body style="background-image:url(track.jpg)">
+    
+        <br>
+        <center>
+            <center>
+            <h1 style="color:red;">Finding the Train's Route</h1>
+            <br>
+            <br>
+            <div class="row text-center">
+                <div class="col-3"></div>
+                <div class="col-2"></div>
+                    <input id="trainnumber" type="text" placeholder="Input your Train Number">
+                </div>
+                <br>
+                <button onclick="findtrain()" class="btn btn-outline-danger"><i class="fa fa-search" aria-hidden="true"></i>
+                </button>
+                <br>
+                <center>
+                    <br>
+                    <br>
+            <div class="right">
+                <table>
+                    <tbody id="results"></tbody>
+                </table>
+            </div>
+                </center>
+        </center>
+        </center>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+    crossorigin="anonymous"></script>
+    <script src="./train.js"></script>
+
+
+    </body>
