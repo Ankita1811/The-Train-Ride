@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(to right, white, skyblue);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lobster', cursive;
+}
+.right {
+    text-align: right;
+}
+table, th, td {
+    margin-left: 10%;
+    background-color: white;
+    border: 1px solid black;
+}
+td{
+ width:500px;
+ height:50px;
+}
